@@ -1,5 +1,5 @@
-#coursesListPage{
-  .loading-spinner{
+#coursesListPage {
+  .loading-spinner {
     padding: 25px;
     background: rgba(0, 0, 0, 0.15);
     display: flex;
@@ -7,7 +7,7 @@
     justify-content: center;
   }
 
-  .toolbar{
+  .toolbar {
     margin-top: 50px;
     height: 70%;
   }
@@ -15,12 +15,11 @@
   #tableCourses {
     height: 97%;
     overflow: auto;
-    width: 100%;
+    width: 600px; /* ou defina uma largura específica em pixels */
     padding: 0;
-    // width: 100%;
-    max-width: 1650px;
     background: white;
     border-radius: 32px;
+    overflow-x: auto; /* rolável horizontalmente */
 
     .mat-column-icon {
       width: 50px;
@@ -57,5 +56,3 @@
     }
   }
 }
-
-
