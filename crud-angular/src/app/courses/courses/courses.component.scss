@@ -1,3 +1,16 @@
-table {
-  width: 100%;
+#coursesListPage{
+  table {
+    width: 100%;
+    // max-width: 500px;
+  }
+
+  .loading-spinner{
+    padding: 25px;
+    background: rgba(0, 0, 0, 0.15);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
 }
+
+
