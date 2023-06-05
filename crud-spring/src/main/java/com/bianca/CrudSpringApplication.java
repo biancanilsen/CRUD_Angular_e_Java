@@ -1,4 +1,4 @@
-package com.bianca.crudspring;
+package com.bianca;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
